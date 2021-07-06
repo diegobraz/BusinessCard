@@ -25,9 +25,9 @@
         android:layout_margin="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:itemCount="8"
         app:layout_constraintTop_toBottomOf="@id/Title"
-
+        tools:itemCount="8"
+        tools:listitem="@layout/item_buiness_card"
         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
