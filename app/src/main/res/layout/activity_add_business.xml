@@ -41,6 +41,7 @@
         app:layout_constraintTop_toBottomOf="@id/title">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="text" />
@@ -60,6 +61,7 @@
         app:layout_constraintTop_toBottomOf="@id/name_input">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_phone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="phone" />
@@ -79,6 +81,7 @@
         app:layout_constraintTop_toBottomOf="@id/phone_input">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress" />
@@ -98,6 +101,7 @@
         app:layout_constraintTop_toBottomOf="@id/email_input">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_enterprise"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="text" />
@@ -117,6 +121,7 @@
         app:layout_constraintTop_toBottomOf="@id/entrepirse_input">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_color"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="text" />
