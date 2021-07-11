@@ -1,5 +1,6 @@
 package com.example.businesscard.view
 
+import Image
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -34,6 +35,10 @@ class MainActivity : AppCompatActivity() {
         biding.floatingButtonAdd.setOnClickListener {
             val intent = Intent(this,AddBusiness::class.java)
             startActivity(intent)
+        }
+
+        adapter.listenershare = {card ->
+            Image.share(this,card)
         }
 
     }
